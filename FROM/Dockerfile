@@ -8,5 +8,5 @@ ENV  app="github" \
     Name="srikanth" \
     build="dockerhub"
 run rm -rf /usr/share/nginx/html/index.html
-ADD sample-1.tar /tmp/
+ADD https://raw.githubusercontent.com/daws-78s/notes/main/session-01.txt /tmp/srikanth.txt /tmp/srikanth.txt
 CMD [ "sleep", "200"]
