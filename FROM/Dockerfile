@@ -4,4 +4,4 @@ CMD [ "nginx","-g","daemon off;" ]
 LABEL Name="srikanth"\
       Role="devops engineer"\
       duration="full time"
-      
+EXPOSE  80
