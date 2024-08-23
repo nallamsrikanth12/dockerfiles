@@ -9,4 +9,4 @@ ENV  app="github" \
     build="dockerhub"
 run rm -rf /usr/share/nginx/html/index.html
 ADD sample-1.tar /tmp/
-CMD [ "nginx","-g","daemon off;" ]
+CMD [ "sleep", "200"]
