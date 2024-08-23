@@ -8,5 +8,5 @@ ENV  app="github" \
     Name="srikanth" \
     build="dockerhub"
 run rm -rf /usr/share/nginx/html/index.html
-COPY index.html rm -rf /usr/share/nginx/html/index.html
+COPY index.html  /usr/share/nginx/html/index.html
 CMD [ "nginx","-g","daemon off;" ]
