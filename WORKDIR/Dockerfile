@@ -1,5 +1,5 @@
 FROM almalinux:8
 RUN mkdir app
 WORKDIR  app
-RUN pwd
+#set up the directory
 CMD [ "sleep","100" ]
